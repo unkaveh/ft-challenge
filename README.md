@@ -1,19 +1,18 @@
-# react-webpack-mui-boilerplate
-
-This boilerplate is a combination of React, Redux, Babel, Webpack 4, Material-UI. 
+# Ft-Challenge :boom::rocket:
+This is the result of the coding challenge given by Flashtract
 
 ## Installation
 
-Use [githubt](https://github.com/unkaveh/react-webpack-mui-boilerplate.git) to clone and install project locally.
+Use [github](https://github.com/unkaveh/ft-challenge.git) to clone and install project locally.
 
 ```bash
-git clone https://github.com/unkaveh/react-webpack-mui-boilerplate.git
+git clone https://github.com/unkaveh/ft-challenge.git
 ```
 
 ## Usage
 
 ```babel
-cd react-webpack-mui-boilerplate
+cd ft-challenge
 npm i
 npm start
 ```
