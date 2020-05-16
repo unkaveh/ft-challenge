@@ -1,0 +1,42 @@
+{
+  "name": "flashtract-coding-challenge",
+  "version": "1.0.0",
+  "description": "Web app for displaying stock quotes in real time",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./src",
+    "lint:fix": "node ./node_modules/eslint/bin/eslint.js ./src --fix"
+  },
+  "author": "Kaveh Afroukhteh <afroukhtehk@gmail.com> (kavehafroukhteh.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "react-hot-loader": "^4.12.21",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "jest": "^26.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  }
+}
